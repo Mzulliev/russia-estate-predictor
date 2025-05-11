@@ -1,0 +1,15 @@
+# Исключить папку с данными
+data/
+
+# Исключить сохраненные модели
+models/
+
+# Исключить виртуальное окружение
+.venv/
+
+# Исключить checkpoints Jupyter Notebook
+.ipynb_checkpoints/
+
+# Исключить кэш Python
+__pycache__/
+*.pyc
