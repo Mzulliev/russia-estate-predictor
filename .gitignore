@@ -1,15 +1,40 @@
-# Исключить папку с данными
+# Данные
 data/
+*.csv
+*.xlsx
+*.pkl
+*.joblib
 
-# Исключить сохраненные модели
+# Модели
 models/
 
-# Исключить виртуальное окружение
+# Виртуальное окружение
 .venv/
 
-# Исключить checkpoints Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
-# Исключить кэш Python
+# Python кэш
 __pycache__/
 *.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи/временные файлы
+*.log
+*.tmp
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Docker
+docker-compose.yml
+Dockerfile
