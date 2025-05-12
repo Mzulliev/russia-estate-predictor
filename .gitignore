@@ -1,19 +1,19 @@
 # Данные
-data/
-*.csv
+data/raw/
+# *.csv
 *.xlsx
 *.pkl
 *.joblib
 
 # Модели
-models/
+# models/
 
 # Виртуальное окружение
 .venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+# *.ipynb
 
 # Python кэш
 __pycache__/
